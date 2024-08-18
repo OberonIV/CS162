@@ -1,0 +1,462 @@
+$ ./a.out
+Welcome to Flight Manager!!
+1. View all Airports & Flights info
+2. Check flight info
+3. Add a new flight
+4. Cancel a flight
+5. Take off a flight
+6. Print airport stats
+7. Quit
+Your choice: 1
+
+
+**********************************
+******Airport Name: A******
+Capacity: 4
+Flight 1: 
+----------------------
+Flight #: A123
+Current at: A
+Destination: B
+Pilot 1: P1
+Pilot 2: P2
+----------------------
+
+Flight 2: 
+----------------------
+Flight #: A456
+Current at: A
+Destination: C
+Pilot 1: P3
+Pilot 2: P4
+Pilot 3: P5
+----------------------
+
+
+**********************************
+******Airport Name: B******
+Capacity: 4
+Flight 1: 
+----------------------
+Flight #: B123
+Current at: B
+Destination: A
+Pilot 1: P6
+----------------------
+
+
+**********************************
+******Airport Name: C******
+Capacity: 4
+Flight 1: 
+----------------------
+Flight #: C123
+Current at: C
+Destination: B
+Pilot 1: P10
+----------------------
+
+Flight 2: 
+----------------------
+Flight #: C456
+Current at: C
+Destination: A
+Pilot 1: P11
+Pilot 2: P12
+Pilot 3: P13
+----------------------
+
+Flight 3: 
+----------------------
+Flight #: C789
+Current at: C
+Destination: A
+Pilot 1: P14
+Pilot 2: P15
+----------------------
+
+Flight 4: 
+----------------------
+Flight #: C000
+Current at: C
+Destination: B
+Pilot 1: P16
+----------------------
+
+1. View all Airports & Flights info
+2. Check flight info
+3. Add a new flight
+4. Cancel a flight
+5. Take off a flight
+6. Print airport stats
+7. Quit
+Your choice: 2
+Enter the flight number: C000
+Flight Found!
+----------------------
+Flight #: C000
+Current at: C
+Destination: B
+Pilot 1: P16
+----------------------
+
+
+1. View all Airports & Flights info
+2. Check flight info
+3. Add a new flight
+4. Cancel a flight
+5. Take off a flight
+6. Print airport stats
+7. Quit
+Your choice: 2
+Enter the flight number: C555
+Cannot find your flight
+
+1. View all Airports & Flights info
+2. Check flight info
+3. Add a new flight
+4. Cancel a flight
+5. Take off a flight
+6. Print airport stats
+7. Quit
+Your choice: 3
+
+1: Airport A
+2: Airport B
+3: Airport C
+Choose an airport: 1
+Enter flight no.: A888
+Enter destination: B
+Number of pilots: 2
+Enter name for pilot 1: pp1
+Enter name for pilot 2: pp2
+
+The flight has been added!
+
+1. View all Airports & Flights info
+2. Check flight info
+3. Add a new flight
+4. Cancel a flight
+5. Take off a flight
+6. Print airport stats
+7. Quit
+Your choice: 3
+
+1: Airport A
+2: Airport B
+3: Airport C
+Choose an airport: 3
+Cannot add more flights to this airport
+
+1. View all Airports & Flights info
+2. Check flight info
+3. Add a new flight
+4. Cancel a flight
+5. Take off a flight
+6. Print airport stats
+7. Quit
+Your choice: 1
+
+
+**********************************
+******Airport Name: A******
+Capacity: 4
+Flight 1: 
+----------------------
+Flight #: A123
+Current at: A
+Destination: B
+Pilot 1: P1
+Pilot 2: P2
+----------------------
+
+Flight 2: 
+----------------------
+Flight #: A456
+Current at: A
+Destination: C
+Pilot 1: P3
+Pilot 2: P4
+Pilot 3: P5
+----------------------
+
+Flight 3: 
+----------------------
+Flight #: A888
+Current at: A
+Destination: B
+Pilot 1: pp1
+Pilot 2: pp2
+----------------------
+
+
+**********************************
+******Airport Name: B******
+Capacity: 4
+Flight 1: 
+----------------------
+Flight #: B123
+Current at: B
+Destination: A
+Pilot 1: P6
+----------------------
+
+
+**********************************
+******Airport Name: C******
+Capacity: 4
+Flight 1: 
+----------------------
+Flight #: C123
+Current at: C
+Destination: B
+Pilot 1: P10
+----------------------
+
+Flight 2: 
+----------------------
+Flight #: C456
+Current at: C
+Destination: A
+Pilot 1: P11
+Pilot 2: P12
+Pilot 3: P13
+----------------------
+
+Flight 3: 
+----------------------
+Flight #: C789
+Current at: C
+Destination: A
+Pilot 1: P14
+Pilot 2: P15
+----------------------
+
+Flight 4: 
+----------------------
+Flight #: C000
+Current at: C
+Destination: B
+Pilot 1: P16
+----------------------
+
+1. View all Airports & Flights info
+2. Check flight info
+3. Add a new flight
+4. Cancel a flight
+5. Take off a flight
+6. Print airport stats
+7. Quit
+Your choice: 4
+
+1: Airport A
+2: Airport B
+3: Airport C
+Choose an airport: 2
+
+**********************************
+******Airport Name: B******
+Capacity: 4
+Flight 1: 
+----------------------
+Flight #: B123
+Current at: B
+Destination: A
+Pilot 1: P6
+----------------------
+
+Choose a flight: 1
+the following flight has been cancelled
+----------------------
+Flight #: B123
+Current at: B
+Destination: A
+Pilot 1: P6
+----------------------
+
+1. View all Airports & Flights info
+2. Check flight info
+3. Add a new flight
+4. Cancel a flight
+5. Take off a flight
+6. Print airport stats
+7. Quit
+Your choice: 5
+1: Airport A
+2: Airport B
+3: Airport C
+Choose an airport: 1
+
+**********************************
+******Airport Name: A******
+Capacity: 4
+Flight 1: 
+----------------------
+Flight #: A123
+Current at: A
+Destination: B
+Pilot 1: P1
+Pilot 2: P2
+----------------------
+
+Flight 2: 
+----------------------
+Flight #: A456
+Current at: A
+Destination: C
+Pilot 1: P3
+Pilot 2: P4
+Pilot 3: P5
+----------------------
+
+Flight 3: 
+----------------------
+Flight #: A888
+Current at: A
+Destination: B
+Pilot 1: pp1
+Pilot 2: pp2
+----------------------
+
+Choose a flight: 3
+
+The following flight has been taken off:
+----------------------
+Flight #: A888
+Current at: A
+Destination: B
+Pilot 1: pp1
+Pilot 2: pp2
+----------------------
+
+
+1. View all Airports & Flights info
+2. Check flight info
+3. Add a new flight
+4. Cancel a flight
+5. Take off a flight
+6. Print airport stats
+7. Quit
+Your choice: 1
+
+
+**********************************
+******Airport Name: A******
+Capacity: 4
+Flight 1: 
+----------------------
+Flight #: A123
+Current at: A
+Destination: B
+Pilot 1: P1
+Pilot 2: P2
+----------------------
+
+Flight 2: 
+----------------------
+Flight #: A456
+Current at: A
+Destination: C
+Pilot 1: P3
+Pilot 2: P4
+Pilot 3: P5
+----------------------
+
+
+**********************************
+******Airport Name: B******
+Capacity: 4
+Flight 1: 
+----------------------
+Flight #: A888
+Current at: B
+Destination: B
+Pilot 1: pp1
+Pilot 2: pp2
+----------------------
+
+
+**********************************
+******Airport Name: C******
+Capacity: 4
+Flight 1: 
+----------------------
+Flight #: C123
+Current at: C
+Destination: B
+Pilot 1: P10
+----------------------
+
+Flight 2: 
+----------------------
+Flight #: C456
+Current at: C
+Destination: A
+Pilot 1: P11
+Pilot 2: P12
+Pilot 3: P13
+----------------------
+
+Flight 3: 
+----------------------
+Flight #: C789
+Current at: C
+Destination: A
+Pilot 1: P14
+Pilot 2: P15
+----------------------
+
+Flight 4: 
+----------------------
+Flight #: C000
+Current at: C
+Destination: B
+Pilot 1: P16
+----------------------
+
+1. View all Airports & Flights info
+2. Check flight info
+3. Add a new flight
+4. Cancel a flight
+5. Take off a flight
+6. Print airport stats
+7. Quit
+Your choice: 6
+
+Airport A
+capacity: 4
+Listed as destination: 2 flights 
+
+Airport B
+capacity: 4
+Listed as destination: 4 flights 
+
+Airport C
+capacity: 4
+Listed as destination: 1 flights 
+
+
+1. View all Airports & Flights info
+2. Check flight info
+3. Add a new flight
+4. Cancel a flight
+5. Take off a flight
+6. Print airport stats
+7. Quit
+Your choice: 7
+Bye!
+
+
+
+$ cat airport.txt 
+3
+A 2 4
+A123 A B 2 P1 P2
+A456 A C 3 P3 P4 P5
+B 1 4
+B888 B B 2 pp1 pp2
+C 4 4
+C123 C B 1 P10
+C456 C A 3 P11 P12 P13
+C789 C A 2 P14 P15
+C000 C B 1 P16
